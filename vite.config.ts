@@ -1,0 +1,24 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  base: process.env.GITHUB_PAGES === "true" ? "/clinica-salud-oral/" : "/",
+  plugins: [react(), tailwindcss()],
+  server: {
+    allowedHosts: [".ngrok-free.dev"],
+  },
+  build: {
+    rolldownOptions: {
+      output: {
+        codeSplitting: true,
+        manualChunks(id) {
+          if (id.includes("node_modules/react") || id.includes("react-router-dom")) return "react";
+          if (id.includes("framer-motion")) return "motion";
+          if (id.includes("react-hook-form") || id.includes("zod") || id.includes("@hookform")) return "forms";
+          if (id.includes("swiper")) return "carousel";
+        },
+      },
+    },
+  },
+})
