@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Clinica Salud Oral">
+  <rect width="64" height="64" rx="18" fill="#EEF6F8"/>
+  <path d="M18 27c0-8 5-14 13-9 2 1 4 1 6 0 8-5 13 1 13 9 0 12-7 26-15 20-2-2-4-2-6 0-8 6-11-8-11-20Z" fill="none" stroke="#2D5F8B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 31c8 5 20 5 24 0" fill="none" stroke="#6EC8B5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M31 33h6" stroke="#61C7F2" stroke-width="4" stroke-linecap="round"/>
+</svg>
