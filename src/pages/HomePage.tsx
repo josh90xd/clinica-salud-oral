@@ -103,11 +103,11 @@ export function HomePage() {
             <div className="image-zoom overflow-hidden rounded-[24px] border border-white bg-white p-2 shadow-[0_34px_90px_rgba(45,95,139,0.16)]">
               <img loading="eager" src="/portfolio/hero-equipo-clinica.jpg" alt="Equipo de Clínica Salud Oral" className="h-[620px] w-full rounded-[20px] object-cover object-center" />
             </div>
-            <div className="glass absolute -bottom-6 left-6 rounded-[24px] p-5">
+            <div className="glass absolute -bottom-6 right-6 rounded-[24px] p-5">
               <strong className="text-2xl text-[#2D5F8B]">Calidad</strong>
               <p className="text-sm font-bold text-[#2D5F8B]/70">calidez y bienestar</p>
             </div>
-            <div className="glass absolute bottom-8 right-8 hidden rounded-[24px] p-5 sm:block">
+            <div className="glass absolute left-6 top-6 hidden rounded-[24px] p-5 sm:block">
               <CheckCircle2 className="mb-2 text-[#6EC8B5]" />
               <p className="max-w-44 text-sm font-bold text-[#2D5F8B]">Atención integral y especializada</p>
             </div>
