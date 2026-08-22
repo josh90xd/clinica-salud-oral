@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: process.env.GITHUB_PAGES === "true" ? "/clinica-salud-oral/" : "/",
+  base: "/",
   plugins: [react(), tailwindcss()],
   server: {
     allowedHosts: [".ngrok-free.dev"],
