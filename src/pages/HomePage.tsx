@@ -70,9 +70,9 @@ export function HomePage() {
     <main>
       <section id="inicio" className="relative isolate overflow-hidden bg-[#F7FAFC] py-24 lg:py-32">
         <div className="absolute inset-x-0 top-0 h-32 bg-[#EEF6F8]" aria-hidden="true" />
-        <div className="absolute right-0 top-24 h-[520px] w-[34%] bg-[#DDF4EF]" aria-hidden="true" />
-        <div className="absolute left-[-12%] top-40 h-80 w-80 rounded-full bg-[#6EC8B5]/18 blur-3xl" aria-hidden="true" />
-        <div className="absolute right-[10%] top-48 h-96 w-96 rounded-full bg-[#61C7F2]/14 blur-3xl" aria-hidden="true" />
+        <div className="absolute right-0 top-24 h-[560px] w-[42%] bg-[radial-gradient(circle_at_center,rgba(110,200,181,0.2),rgba(238,246,248,0.48)_45%,transparent_72%)]" aria-hidden="true" />
+        <div className="absolute left-[-12%] top-40 h-80 w-80 rounded-full bg-[#6EC8B5]/12 blur-3xl" aria-hidden="true" />
+        <div className="absolute right-[8%] top-44 h-96 w-96 rounded-full bg-[#61C7F2]/10 blur-3xl" aria-hidden="true" />
         <div className="section-shell grid items-center gap-14 lg:grid-cols-[0.92fr_1.08fr]">
           <motion.div variants={fadeUp} initial="hidden" animate="visible" transition={{ duration: 0.7 }}>
             <p className="eyebrow">Clínica odontológica en Barranquilla</p>
@@ -107,7 +107,7 @@ export function HomePage() {
               <strong className="text-2xl text-[#2D5F8B]">Calidad</strong>
               <p className="text-sm font-bold text-[#2D5F8B]/70">calidez y bienestar</p>
             </div>
-            <div className="glass absolute -right-4 top-8 hidden rounded-[24px] p-5 sm:block">
+            <div className="glass absolute bottom-8 right-8 hidden rounded-[24px] p-5 sm:block">
               <CheckCircle2 className="mb-2 text-[#6EC8B5]" />
               <p className="max-w-44 text-sm font-bold text-[#2D5F8B]">Atención integral y especializada</p>
             </div>
